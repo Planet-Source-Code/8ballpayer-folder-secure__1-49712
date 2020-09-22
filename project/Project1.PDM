@@ -1,0 +1,155 @@
+[Root]
+Most Recent Package=Folder Secure
+
+
+[Package|Folder Secure Setup|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\Documents and Settings\Owner\Desktop\Folder Secure
+
+[Package|Folder Secure Setup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Folder Secure Setup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Folder Secure Setup|Files Found]
+
+[Package|Folder Secure Setup|Files Released]
+
+[Package|Folder Secure Setup|Missing Dependency Information]
+
+[Package|Folder Secure Setup|Out-of-Date Dependency Information]
+
+[Package|Folder Secure Setup|Files Added]
+
+[Package|Folder Secure Setup|Files Removed]
+
+[Package|Folder Secure Setup|Files In Project]
+C:\Documents and Settings\Owner\Desktop\Folder Secure\Folder Secure.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+
+[Package|Folder Secure Setup|Configure Registry Files]
+Applicable=
+
+[Package|Folder Secure Setup|Configure Remote Servers]
+Applicable=
+
+[Package|Folder Secure Setup|Install Locations]
+C:\Documents and Settings\Owner\Desktop\Folder Secure\Folder Secure.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+
+[Package|Folder Secure Setup|Configure Shared Files]
+Applicable=
+
+[Package|Folder Secure Setup|DepFile]
+DepCabFile=Folder Secure.CAB
+DepCabRun=Folder Secure.INF
+
+[Package|Folder Secure Setup|Package]
+PackageFolder=C:\Documents and Settings\Owner\Desktop\Folder Secure
+ProjectFolder=C:\Documents and Settings\Owner\Desktop\Programming\project
+ServerSideCab=
+File1=C:\Documents and Settings\Owner\Desktop\Folder Secure\Folder Secure.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Folder Secure|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\Owner\Desktop\Folder Secure
+
+[Package|Folder Secure|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Folder Secure|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Folder Secure|Files Found]
+
+[Package|Folder Secure|Files Released]
+
+[Package|Folder Secure|Missing Dependency Information]
+
+[Package|Folder Secure|Out-of-Date Dependency Information]
+
+[Package|Folder Secure|Files Added]
+
+[Package|Folder Secure|Files Removed]
+
+[Package|Folder Secure|Files In Project]
+C:\Documents and Settings\Owner\Desktop\Folder Secure\Folder Secure.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Folder Secure|Configure Registry Files]
+Applicable=No
+
+[Package|Folder Secure|Configure Remote Servers]
+Applicable=No
+
+[Package|Folder Secure|Install Locations]
+C:\Documents and Settings\Owner\Desktop\Folder Secure\Folder Secure.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Folder Secure|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\Owner\Desktop\Folder Secure\Folder Secure.exe=No
+
+[Package|Folder Secure|DepFile]
+DepCabFile=Folder Secure.CAB
+DepCabRun=Folder Secure.INF
+
+[Package|Folder Secure|Distribution]
+Type=single
+Size=1.44 MB
+Title=Folder Secure
+
+[Package|Folder Secure|IconGroups]
+Group0=Folder Secure
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Folder Secure|Folder Secure]
+Icon1="Folder Secure.exe"
+Title1=Folder Secure
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Folder Secure|Package]
+PackageFolder=C:\Documents and Settings\Owner\Desktop\Folder Secure
+ProjectFolder=C:\Documents and Settings\Owner\Desktop\Programming\project
+ServerSideCab=
+File1=C:\Documents and Settings\Owner\Desktop\Folder Secure\setup.exe
+File2=C:\Documents and Settings\Owner\Desktop\Folder Secure\Setup.Lst
+File3=C:\Documents and Settings\Owner\Desktop\Folder Secure\Folder Secure.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
